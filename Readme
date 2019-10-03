@@ -1,0 +1,17 @@
+create docker file 
+build a dockerfile from runnig docker container
+here is a command, how to build a image using dockerfile 
+
+****************************************************
+[node1] (local) root@192.168.0.53 ~/static_web
+$ docker build -t prabhu_static_git https://github.com/prabhu9683/Dockerfile_sample.git
+Sending build context to Docker daemon   51.2kB
+Step 1/6 : FROM  ubuntu
+ ---> 2ca708c1c9cc
+Step 2/6 : MAINTAINER  prabhu
+ ---> Running in bc5d6708feb1
+Removing intermediate container bc5d6708feb1
+ ---> c7f491494869
+Step 3/6 : RUN apt-get update
+ ---> Running in 25c10edb205c
+ ******************************************
